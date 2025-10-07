@@ -1,0 +1,7 @@
+# (Follow the same Arduino IDE setup and Running steps as Experiment 9)
+# Hardware: Connect an LED (with a resistor) to pin 8 and GND on the Arduino.
+# ---
+# To Run:
+# roscore
+# rosrun rosserial_python serial_node.py /dev/ttyACM0
+# rostopic pub /toggle_external_led std_msgs/Empty --once
